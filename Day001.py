@@ -43,3 +43,13 @@ print(dict["name"])
 
 #         --Typecasting--
 
+a = "1"
+b = "2"
+
+print(int(a) + int(b)) # Explicit typecasting (we order it to convert)
+
+x = 1.7
+y = 4 
+sum = x + y
+
+print(sum) # Implicit Typecasting (Python converted it itself in the float from int)
