@@ -40,3 +40,6 @@ print(list[2])
 
 dict = {"name":"Keshav","job":"AI System Engineer"} #dictionary
 print(dict["name"])
+
+#         --Typecasting--
+
