@@ -69,7 +69,7 @@
 # count = 0
 # for i in n:
 #     count = count + 1
-#     print(count)
+# print(count)
 
 # By While loop
 
@@ -78,11 +78,81 @@
 # while(n>0):
 #     n = n//10
 #     count = count + 1
-#     print(count)
+# print(count)
 
 # Sum of Digits: Ek number ke saare digits ko aapas mein plus karo (e.g., 123 ➔ 1+2+3 = 6).
 
+# By While Loop
 
+# n = 456
+# total = 0
+# while(n>0):
+#     last_digit = n%10
+#     total = total + last_digit
+#     n = n//10
+# print("Total sum:",total)
+
+# By For loop
+
+# n = "875"
+# sum = 0
+# for i in n:
+#     sum = sum + int(i)
+# print(sum)
+
+# Reverse the Number: Kisi number ko ulta kardo (e.g., 876 ➔ 678).
+
+# By While loop
+
+# n = 568
+# new = 0
+# while(n>0):
+#     last_digit = n%10
+#     new = (new*10) + last_digit
+#     n = n//10
+# print(new)
+
+# By For loop
+
+# n = "345"
+# new = ""
+# for i in n:
+#     new = i + new 
+# print(new)
+
+# Palindrome Check: Check karo ki koi number ulta karne par original number jaisa same rehta hai ya nahi (e.g., 121).
+
+# By For Loop
+
+# n = str(input("Enter the number: "))
+# new = ""
+# for i in n:
+#     new = i + new
+# if (n==new):
+#     print(n,"is a palindrome")
+# else:
+#     print(n,"is not a palindrome")
+
+# By While Loop
+
+# n = int(input("Enter the number: "))
+# original = n
+# new = 0
+# while(n>0):
+#     last_digit = n%10
+#     new = (new*10) + last_digit
+#     n = n//10
+# if(original==new):
+#    print(original,"is a palindrome")
+# else:
+#    print(original,"is not a palindrome")
+      
+
+
+
+
+    
+    
 
     
 
