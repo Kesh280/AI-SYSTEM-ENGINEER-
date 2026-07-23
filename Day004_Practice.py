@@ -1,70 +1,92 @@
-#Print Counting (while): 1 se 50 tak numbers print karo.
+# Print Counting (while): 1 se 50 tak numbers print karo.
 
-i = 0
-while(i<51):
-    print(i)
-    i = i + 1
+# i = 0
+# while(i<51):
+#     print(i)
+#     i = i + 1
 
-#Print Counting (for): 1 se 50 tak numbers print karo range() use karke.
+# Print Counting (for): 1 se 50 tak numbers print karo range() use karke.
 
-for i in range (51):
-    print(i)
+# for i in range (51):
+#     print(i)
 
-#Sum of N: 1 se lekar 100 tak ke sabhi numbers ko add karke total Sum print karo.
+# Sum of N: 1 se lekar 100 tak ke sabhi numbers ko add karke total Sum print karo.
 
-for i in range(1,101):
-    print(i*(i+1)/2)
+# for i in range(1,101):
+#     print(i*(i+1)/2)
 
-#---------------------------------------- Both approaches are right.
+# ---------------------------------------- Both approaches are right.
   
-total_sum = 0
-for i in range(1, 101):
-   total_sum = total_sum + i
-print("1 se 100 tak ka total sum hai:", total_sum)
+# total_sum = 0
+# for i in range(1, 101):
+#    total_sum = total_sum + i
+# print("1 se 100 tak ka total sum hai:", total_sum)
 
-total_sum = 0
-i = 1
+# total_sum = 0
+# i = 1
 
 
-while(i<=100):
-    total_sum = total_sum + i
-    i = i + 1
-    print("SUM: ",total_sum)
+# while(i<=100):
+#     total_sum = total_sum + i
+#     i = i + 1
+#     print("SUM: ",total_sum)
 
 # Multiplication Table: Ek number lo (jaise 5) aur uska poora table print karo (5 x 1 = 5...).
 
 # By For loop:-
 
-for i in range(11):
-    print("4","x",i,"=",4*i)
+# for i in range(11):
+#     print("4","x",i,"=",4*i)
 
 # By While loop:- 
 
-i = 0
-while(i<=10):
-    print("4","x",i,"=",4*i)
-    i = i + 1
+# i = 0
+# while(i<=10):
+#     print("4","x",i,"=",4*i)
+#     i = i + 1
 
 # Even Numbers Only: 1 se 50 ke beech aane wale sirf Even (sam) numbers print karo.
 
 # By For Loop  
 
-for i in range(1,51):
-    if(i%2==0):
-        print(i)
+# for i in range(1,51):
+#     if(i%2==0):
+#         print(i)
 
 # By While Loop 
 
-i = 1
-while(i<=50):
-    if(i%2==0):
-        print(i)
-    i = i + 1
+# i = 1
+# while(i<=50):
+#     if(i%2==0):
+#         print(i)
+#     i = i + 1
+
+# Count Digits: Ek number mein total kitne digits hain, yeh count karo (e.g., 4567 mein 4 hain).
+
+# By for loop
+
+# n = "893"
+# count = 0
+# for i in n:
+#     count = count + 1
+#     print(count)
+
+# By While loop
+
+# n = 893
+# count = 0
+# while(n>0):
+#     n = n//10
+#     count = count + 1
+#     print(count)
+
+# Sum of Digits: Ek number ke saare digits ko aapas mein plus karo (e.g., 123 ➔ 1+2+3 = 6).
+
+
+
     
 
 
 
 
     
-   
-
