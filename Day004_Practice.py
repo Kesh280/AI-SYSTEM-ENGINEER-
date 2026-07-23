@@ -147,6 +147,58 @@
 # else:
 #    print(original,"is not a palindrome")
       
+# Largest of Three: 3 alag-alag numbers mein se sabse bada number print karo (sirf if-elif-else use karke).
+
+# a = int(input("Enter the 1st no. "))
+# b = int(input("Enter the 2nd no. "))
+# c = int(input("Enter the 3rd no. "))
+
+# if(a>b and a>c):
+#     print("The largest number:",a)
+
+# elif(b>a and b>c):
+#     print("The Largest number:",b)
+
+# else:
+#     print("The Largest number:",c)
+
+# Leap Year Check: Check karo ki diya hua year leap year hai ya nahi.
+
+# year = int(input("Enter the year: "))
+
+# if(year%4==0):
+#     print("This is leap year")
+
+# elif(year%400==0):
+#     print("This is leap year")
+
+# else:
+#     print("This is not leap year")
+
+# Factorial Finder: Kisi number ka factorial nikalo (e.g., 5! = 5 * 4 * 3 * 2 * 1).
+
+# By For Loop
+
+# m = int(input("Enter the number:"))
+# n = 1
+# for i in range(m):
+#     n = n*(i + 1)
+# print(n)
+
+# By While Loop
+
+# n = 1
+# i = int(input("Enter the number:"))
+# while(i>0):
+#    n = n*i
+#    i = i - 1
+# print(n)
+    
+
+
+    
+    
+
 
 
 
